@@ -4,28 +4,35 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#000000"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="172dp"
-        android:layout_height="155dp"
-        android:layout_marginStart="119dp"
-        android:layout_marginTop="174dp"
+        android:layout_width="match_parent"
+        android:layout_height="359dp"
         android:layout_marginBottom="96dp"
         android:text=""
         app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.016" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="151dp"
-        android:layout_height="85dp"
-        android:layout_marginStart="131dp"
-        android:layout_marginBottom="221dp"
+        android:layout_width="197dp"
+        android:layout_height="116dp"
+        android:layout_marginBottom="190dp"
+        android:backgroundTint="#02183C"
+        android:gravity="center"
         android:text="Click this button to change color"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

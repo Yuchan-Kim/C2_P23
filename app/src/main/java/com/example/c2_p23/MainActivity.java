@@ -25,14 +25,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (count == 0) {
-                    signal.setBackgroundColor(-65536);
+                    signal.setBackgroundColor(Color.parseColor("#FF3D00"));
                     count = 1;
                 } else if (count == 1) {
                     signal.setBackgroundColor(Color.parseColor("#ffff00"));
                     count = 2;
                 } else if (count== 2) {
-                    signal.setBackgroundColor(-16711936);
-                    count = 2;
+                    signal.setBackgroundColor(Color.parseColor("#00FF83"));
+                    count = 0;
                 }
             }
 

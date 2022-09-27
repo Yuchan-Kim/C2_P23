@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (count == 0) {
-                    signal.setBackgroundColor(Color.parseColor("#FF3D00"));
+                    signal.setBackgroundColor(Color.parseColor("#EF0A0A"));
                     count = 1;
                 } else if (count == 1) {
                     signal.setBackgroundColor(Color.parseColor("#ffff00"));
